@@ -1,3 +1,6 @@
+#ifndef _HAP_BASE64_H_
+#define _HAP_BASE64_H_
+
 #pragma once
 
 #ifdef __cplusplus
@@ -15,3 +18,5 @@ int base64_decode_(const unsigned char* encoded_data, size_t encoded_size, unsig
 #ifdef __cplusplus
 }
 #endif
+
+#endif //_HAP_BASE64_H_

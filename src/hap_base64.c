@@ -1,4 +1,4 @@
-#include "base64.h"
+#include "hap_base64.h"
 
 static unsigned char base64_chars[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
